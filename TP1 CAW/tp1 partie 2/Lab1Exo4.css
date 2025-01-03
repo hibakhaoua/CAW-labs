@@ -1,0 +1,47 @@
+/* 3. Apply the following rules to the whole page */
+* {
+    margin: 50px; /* Inner margin of 50px */
+    background-color: #e8eae8; /* Background color */
+    color: #5d665b; /* Font color */
+}
+
+/* 4. Assign the <body> */
+body {
+    margin: 70px 50px 70px 120px; /* Top/bottom: 70px, Left: 120px, Right: 50px */
+}
+
+/* 5. Set text fonts to Verdana, Geneva, Arial, sans-serif */
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* 6. Set font size to small, line-height to 180% */
+body {
+    font-size: small;
+    line-height: 180%;
+}
+
+/* 7. First <h2> and first <p> font sizes */
+h2:first-of-type {
+    font-size: 75%;
+}
+
+p:first-of-type {
+    font-size: 70%;
+}
+
+/* 7. Second <p> indentation */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
+
+/* 8. <h1> color */
+h1 {
+    color: #ffffdd;
+}
+
+/* 8. <h2> color and font-family */
+h2 {
+    color: #966b72;
+    font-family: Georgia, serif;
+}
